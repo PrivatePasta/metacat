@@ -25,3 +25,4 @@ jobs:
       with:
         # Output target
         RUSTTARGET: ${{ matrix.target }}
+        UPLOAD_MODE: release
