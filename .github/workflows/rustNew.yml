@@ -25,5 +25,3 @@ jobs:
       with:
         # Output target
         RUSTTARGET: ${{ matrix.target }}
-        # List of extra files to include in build
-        EXTRA_FILES: "metacat"
